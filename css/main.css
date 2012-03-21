@@ -1,0 +1,183 @@
+
+/* START Body================================================== */
+body {
+        color: black;
+        font-size: 100%;
+        max-width: 960px;
+        margin: 0 auto;
+        /*height: 1024px;*/
+	background: -moz-linear-gradient(top, black, white);
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+h1, h2, h4, h3, ol, ul, p{
+    text-shadow: 6px 6px 6px black;
+}
+h3{
+    text-align: center;
+}
+
+
+/*END Body===================================================== */
+
+.wrapper{
+	width: 680px; /*790px/960px*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*START Logo=================================================== */
+.logo{
+    
+    margin: 0 auto;
+    padding-left: 90px;
+}
+/*END Logo===================================================== */
+
+/* START Nav Bar=============================================== */
+.nav_bar{
+    width: 525.048px;
+    background-color: #94bdd9;
+    border: #94bdd9 solid;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+ol#nav_tabs {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#nav_tabs li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ol#nav_tabs a {
+    background: #bdf;
+    color: #008;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+ol#nav_tabs a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+ol#nav_tabs a:hover span {
+    background-position: 100% -120px;
+}
+
+ol#nav_tabs li.current a {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: #fff;
+    font-weight: normal;
+}
+
+ol#nav_tabs li.current span {
+    background-position: 100% -60px;
+}
+
+ol#nav_tabs span {
+    background: 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
+
+
+/* END Nav Bar======================================================= */
+
+/*START CTA========================================================== */
+.cta{
+    /*margin-top: 25px;
+    margin-left: 130px;
+    margin-bottom: 6.3291139%; /*50px/790px*/
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+/*END CTA============================================================ */
+
+/*START 3 Column CTA================================================= */
+.col_container{
+    /*margin-left: 100px;
+    margin-bottom: 100px;*/
+    margin: 0 auto;
+} 
+.firm_ver, .specials, .reviews{
+    background-color: #94bdd9;
+    width: 190px;
+    border-radius: 10px;
+    padding: 0;
+    float: left;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px black;
+    margin-right: 10px;
+}
+
+/*END 3 Column CTA=================================================== */
+
+/*START FORM========================================================= */
+.form{
+    width: 600px;
+}
+.contact{
+    text-align: center;
+    margin-right: 100px;
+}
+/*END FORM=========================================================== */
+
+/*START Xbox Repairs================================================= */
+.error_lights{
+    width: 600px;
+}
+.xbox_lights li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+/*END Xbox Repairs=================================================== */
+
+/*START Footer================================================= */
+.footer_container{
+    background-color: #94bdd9;
+    width: 590px;
+    margin-top: 50px;
+    /*margin-left: 100px;*/
+    border-radius: 10px;
+    padding: 0.5em;
+    float: left;
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px black;
+    margin-right: 30px;
+   
+}
+
+
+.footer1{
+    float: left;
+    /*margin-left: 5px;*/
+    list-style: none;
+}
+
+.footer2{
+    margin-left: 16px;
+    float: left;
+}
+
+.footer3{
+    margin-left: 16px;
+    float: left;
+}
+/*END Footer=================================================== */
+
+.cleardiv{
+	clear: both; 
+}
