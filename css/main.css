@@ -16,6 +16,9 @@ h1, h2, h4, h3, ol, ul, p{
 h3{
     text-align: center;
 }
+a{
+	text-decoration: none;
+}
 
 
 /*END Body===================================================== */
