@@ -5,7 +5,7 @@ body {
         font-size: 100%;
         max-width: 960px;
         margin: 0 auto;
-        /*height: 1024px;*/
+	background: gray;
 	background: -moz-linear-gradient(top, black, white);
         background-repeat: no-repeat;
         background-size: contain;
@@ -99,9 +99,6 @@ ol#nav_tabs span {
 
 /*START CTA========================================================== */
 .cta{
-    /*margin-top: 25px;
-    margin-left: 130px;
-    margin-bottom: 6.3291139%; /*50px/790px*/
     margin: 0 auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -115,7 +112,7 @@ ol#nav_tabs span {
     margin-bottom: 100px;*/
     margin: 0 auto;
 } 
-.firm_ver, .specials, .reviews{
+#firm_ver, #specials, #reviews{
     background-color: #94bdd9;
     width: 190px;
     border-radius: 10px;
@@ -130,19 +127,39 @@ ol#nav_tabs span {
 
 /*START FORM========================================================= */
 .form{
-    width: 600px;
+    width: 300px;
+    float: left;
 }
-.contact{
+#staff_header{
     text-align: center;
-    margin-right: 100px;
+    /*margin-right: 100px;
+    margin-bottom: 100px;*/
+}
+#contact_info{
+	margin-right: 50px;
+	text-align: center;
+}
+#directions{
+	margin-bottom: 200px;
+}
+#open{
+	margin-bottom: 200px;
 }
 /*END FORM=========================================================== */
+
+/*START Contact Info================================================= */
+#contact_info{
+	width: 300px;
+	float: right;
+}
+
+/*END Contact Info=================================================== */
 
 /*START Xbox Repairs================================================= */
 .error_lights{
     width: 600px;
 }
-.xbox_lights li{
+#xbox_lights li{
     list-style: none;
     padding-bottom: 10px;
 }
@@ -164,20 +181,24 @@ ol#nav_tabs span {
 }
 
 
-.footer1{
+#footer1{
     float: left;
     /*margin-left: 5px;*/
     list-style: none;
 }
 
-.footer2{
+#footer2{
     margin-left: 16px;
     float: left;
 }
 
-.footer3{
+#footer3{
     margin-left: 16px;
     float: left;
+}
+#copyright{
+	font-size: small;
+	margin-left: 170px;
 }
 /*END Footer=================================================== */
 
