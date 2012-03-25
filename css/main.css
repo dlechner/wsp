@@ -7,6 +7,9 @@ body {
         margin: 0 auto;
 	background: gray;
 	background: -moz-linear-gradient(top, #000000, #FFFFFF);
+	background: -webkit-linear-gradient(top,#000000, #FFFFFF);
+	background: -ms-linear-gradient(top, #000000, #FFFFFF);
+	background: -o-linear-gradient(top, #000000, #FFFFFF);
         background-repeat: no-repeat;
         background-size: contain;
 }
