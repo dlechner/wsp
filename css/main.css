@@ -1,17 +1,17 @@
 
 /* START Body================================================== */
 body {
-        color: black;
+        color: #000000;
         font-size: 100%;
         max-width: 960px;
         margin: 0 auto;
 	background: gray;
-	background: -moz-linear-gradient(top, black, white);
+	background: -moz-linear-gradient(top, #000000, #FFFFFF);
         background-repeat: no-repeat;
         background-size: contain;
 }
 h1, h2, h4, h3, ol, ul, p{
-    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px #588452;
 }
 h3{
     text-align: center;
@@ -118,8 +118,8 @@ ol#nav_tabs span {
     border-radius: 10px;
     padding: 0;
     float: left;
-    border: 2px solid black;
-    box-shadow: 6px 6px 6px black;
+    border: 2px solid #000000;
+    box-shadow: 6px 6px 6px #000000;
     margin-right: 10px;
 }
 
@@ -130,8 +130,8 @@ ol#nav_tabs span {
     padding: 2px;
     text-align: center;
     float: left;
-    border: 2px solid black;
-    box-shadow: 6px 6px 6px black;
+    border: 2px solid #000000;
+    box-shadow: 6px 6px 6px #000000;
     margin-right: 10px;
 }
 /*END 3 Column CTA=================================================== */
@@ -140,6 +140,11 @@ ol#nav_tabs span {
 .form{
     width: 300px;
     float: left;
+       background-color: #94bdd9;
+     border: 2px solid #000000;
+     padding: 10px;
+    border-radius: 10px;
+
 }
 #staff_header{
     text-align: center;
@@ -151,10 +156,31 @@ ol#nav_tabs span {
 	text-align: center;
 }
 #directions{
-	margin-bottom: 200px;
+	margin-bottom: 20px;
+}
+#map{
+	margin-bottom: 110px;
 }
 #open{
-	margin-bottom: 200px;
+	margin-bottom: 20px;
+}
+#ops{
+    background-color: #94bdd9;
+    width: 190px;
+    border-radius: 10px;
+    padding-right: 20px;
+    text-align: center;
+    border: 2px solid #000000;
+    box-shadow: 6px 6px 6px #000000;
+    margin-left: 50px;
+}
+
+#map{
+    box-shadow: 6px 6px 6px #000000;
+}
+#store_phone{
+	margin-top: 110px;
+	margin-left: 20px;
 }
 /*END FORM=========================================================== */
 
@@ -176,6 +202,16 @@ ol#nav_tabs span {
 }
 /*END Xbox Repairs=================================================== */
 
+/*START PS3 Repairs================================================= */
+.error_lights{
+    width: 600px;
+}
+#ps3_lights li{
+
+    padding-bottom: 10px;
+}
+/*END Xbox Repairs=================================================== */
+
 /*START Footer================================================= */
 .footer_container{
     background-color: #94bdd9;
@@ -185,8 +221,8 @@ ol#nav_tabs span {
     border-radius: 10px;
     padding: 0.5em;
     float: left;
-    border: 2px solid black;
-    box-shadow: 6px 6px 6px black;
+    border: 2px solid #000000;
+    box-shadow: 6px 6px 6px #000000;
     margin-right: 30px;
    
 }
